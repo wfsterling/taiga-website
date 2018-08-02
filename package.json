@@ -1,0 +1,33 @@
+{
+  "name": "taigamarket.com",
+  "version": "1.0.0",
+  "description": "The marketing website for TAIGA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wfsterling/taiga-website.git"
+  },
+  "keywords": [
+    "taiga",
+    "retail"
+  ],
+  "author": "wfsterling",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wfsterling/taiga-website/issues"
+  },
+  "homepage": "https://github.com/wfsterling/taiga-website#readme",
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "extract-loader": "^2.0.1",
+    "file-loader": "^1.1.11",
+    "node-sass": "^4.9.2",
+    "sass-loader": "^7.1.0",
+    "webpack": "^3.12.0",
+    "webpack-dev-server": "^2.11.2"
+  }
+}
